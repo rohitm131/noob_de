@@ -1,0 +1,1 @@
+project knowledge : data domain, business problem, end-to-end architecture, data volume, infrastructure
