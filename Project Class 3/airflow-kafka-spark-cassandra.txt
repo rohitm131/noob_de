@@ -1,0 +1,4 @@
+create docker file to setup all services
+create topic on confluent kafka
+run airflow script to publish data on kafka topic (kafka_stream.py)
+execute spark streaming application which will capture the event (act as consumer), process the data and ingest in cassandra

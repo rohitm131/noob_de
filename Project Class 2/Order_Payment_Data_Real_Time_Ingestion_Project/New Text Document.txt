@@ -1,0 +1,3 @@
+create 3 pub-sub topics (payments_data, order_data, dlq_payments_data)
+respective 3 pub-sub subscriptions will be created
+

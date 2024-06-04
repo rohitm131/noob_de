@@ -1,0 +1,9 @@
+insert items in dynamoDB table
+turn on dynamoDB stream
+create kinesis data stream (kinesis-sales-order)
+create event bridge pipe (dynamo-cdc-to-kinesis)
+create kinesis firehose (kinesis-to-s3-delivery)
+create lambda (stream-transformation)
+s3 bucket (sales-data-projection)
+create crawler (sales_data_crawler) -> crawl the s3 bucket
+add new classifier in the crawler to crawl the json data ($.orderid,$.product_name ..... and so on)

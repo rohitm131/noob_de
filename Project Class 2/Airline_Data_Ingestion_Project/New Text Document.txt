@@ -1,0 +1,5 @@
+create table schema dim and fact tables
+create crawler - 2 for redshift table and 1 for s3 where daily data will come
+create glue job - do join operations, do change schema, and put data in target redshift fact table
+create step function
+create event bridge rule which will automatically detect when file arrived in s3 using cloudtrail and then start the step function.
